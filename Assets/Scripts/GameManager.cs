@@ -14,8 +14,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
-        InvokeRepeating("SpawnCube",2,2);
+        StartCoroutine(SpawnCube());
     }
 
     // Update is called once per frame
@@ -23,34 +22,34 @@ public class GameManager : MonoBehaviour
     {
       
     }
-
-    public void SpawnCube()
+    
+    private IEnumerator SpawnCube()
     {
-
-        GameObject cubeToSpawn;
-        if (_cubesCount == 6)
+        while (true)  // döngü true 
         {
-            cubeToSpawn = _specialCubes;
-            _cubesCount = 0;
-            Pause();
-            Debug.Log("++");
+            GameObject cubeToSpawn;   // spawnlanacak cube
+    
+            if (_cubesCount == 8)  // eğer küp 7 ise
+            {
+                cubeToSpawn = _specialCubes;  // özel cube spawn et
+                _cubesCount = 0;  // sayac sıfırla 
+                Debug.Log("Special");   // ekrana calışıp calışmadığını dene
+            }
+            else
+            {
+                cubeToSpawn = _cubes;   // döngü karşılamazsa düz cubes spawn et
+                _cubesCount++;  // 1er 1 arttır
+                Debug.Log("Normal");
+            }
+    
+            Vector2 pos = new Vector2(x: 0, y: 4.27f);  // küp pos belirle
+            Instantiate(cubeToSpawn, pos, Quaternion.identity); // Instantiate et
+    
+    
+            yield return new WaitForSeconds(5f);  // 5sn bekle yaratmak için
+    
         }
-        else
-        {
-            cubeToSpawn = _cubes;
-            _cubesCount++;
-            Debug.Log("+");
-        }
 
-        
-
-        Vector2 pos = new Vector2(x: 0, y: 4.27f);
-        Instantiate(cubeToSpawn, pos, quaternion.identity);
     }
-
-    public void Pause()
-    {
-        CancelInvoke("SpawnCube");
-    }
-
+    
 }
