@@ -275,8 +275,8 @@ Transform:
   m_GameObject: {fileID: 137734672}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.76, z: 0}
-  m_LocalScale: {x: 6.41, y: 0.41, z: 3.3}
+  m_LocalPosition: {x: 0, y: -10.47, z: 0}
+  m_LocalScale: {x: 4.26, y: 0.41, z: 3.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -346,6 +346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cubes: {fileID: 3840957409562910746, guid: afd30ce6ff933a64e8ccb9fed3a4aa5b, type: 3}
   _specialCubes: {fileID: 1731694089709116028, guid: 83a1d8d1de5a28f4ab60cdd98a593a1a, type: 3}
+  _posIncrement: 2
 --- !u!4 &266455468
 Transform:
   m_ObjectHideFlags: 0
@@ -377,7 +378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &273338670
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -419,7 +420,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 54f7057db1e7c674d898ad8653a279f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f346bf9def0965145833b3a477d09b87, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -481,7 +482,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: 150}
+  m_AnchoredPosition: {x: -613.02, y: 317.11}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346265682
@@ -545,7 +546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Score:'
+  m_Text: 0
 --- !u!222 &346265685
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -568,7 +569,7 @@ GameObject:
   - component: {fileID: 453123233}
   m_Layer: 0
   m_Name: DestoryGround
-  m_TagString: Untagged
+  m_TagString: DestroyGround
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -706,7 +707,7 @@ Transform:
   m_GameObject: {fileID: 453123232}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -12.6, z: 0}
+  m_LocalPosition: {x: 0, y: -15.361, z: 0}
   m_LocalScale: {x: 0.78000003, y: 26.49, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -730,7 +731,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &596122948
 Transform:
   m_ObjectHideFlags: 0
@@ -1150,7 +1151,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1903451003
 Transform:
   m_ObjectHideFlags: 0

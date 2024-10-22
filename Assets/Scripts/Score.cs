@@ -26,7 +26,13 @@ public class Score : MonoBehaviour
     {
         if (_scoreText != null)
         {
-            _scoreText.text = "Score: " + score.ToString();
+            _scoreText.text = score.ToString();
         }
+    }
+
+    public void DecreaseScore()
+    {
+        score--;
+        UpdateScoreText();
     }
 }

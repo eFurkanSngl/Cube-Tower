@@ -15,13 +15,16 @@ public class Cube : MonoBehaviour
     private Vector3 _startPos;  // küpün başlangıç noktası
     private bool _isFalling = false;  // Küpün düşüp düşmediğini kontrol edecek.
     private Score _scoreManager;  // Score classından türüyor
-
+    private GameManager _gameManager;
+    
     private HashSet<int> _collideCubes = new HashSet<int>(); // Çarpşıan küplerin ID lerini saklayacak
     
    private void Start()
    {
 
       _scoreManager = FindObjectOfType<Score>();  // burada bir kez almamız performans açasından önemli
+      _gameManager = FindObjectOfType<GameManager>();
+      
       
       _startPos = transform.position;  // oyun başladığında başlangıç noktasını alıyor
       _rb =GetComponent<Rigidbody2D>();
@@ -55,10 +58,11 @@ public class Cube : MonoBehaviour
          {
           StartFalling();   //Kinematic kapanacak hareket etmeyecek ve fizeğe maruz kalacak.
          }
-         
       }
+     
    }
 
+   
 
    public void StartFalling()
    {
@@ -81,9 +85,15 @@ public class Cube : MonoBehaviour
             if (transform.position.y > other.transform.position.y)  // eğer bunun trasnformu diğerinden büyükse 
             {
                _scoreManager.IncreaseScore(); // Score artırıcaz.
+               _gameManager.IncrementSpawnPos();
             }
          }
-
+      }
+      
+      else if (other.gameObject.CompareTag("DestroyGround"))
+      {
+         Destroy(gameObject);
+         _scoreManager.DecreaseScore();
       }
    }
 }

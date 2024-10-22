@@ -10,17 +10,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _cubes;
     [SerializeField] private GameObject _specialCubes;
     private int _cubesCount;
+    private Vector2 _spawnPs = new Vector2(0, 3.50f);
+    [SerializeField] private float _posIncrement = 3f;  // Poz artış miktarı
     
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SpawnCube());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-      
     }
     
     private IEnumerator SpawnCube()
@@ -41,15 +37,18 @@ public class GameManager : MonoBehaviour
                 _cubesCount++;  // 1er 1 arttır
                 Debug.Log("Normal");
             }
-    
-            Vector2 pos = new Vector2(x: 0, y: 4.27f);  // küp pos belirle
+
+            Vector2 pos = _spawnPs;
             Instantiate(cubeToSpawn, pos, Quaternion.identity); // Instantiate et
     
     
             yield return new WaitForSeconds(5f);  // 5sn bekle yaratmak için
     
         }
-
     }
-    
+
+    public void IncrementSpawnPos()
+    {
+        _spawnPs.y += _posIncrement;  // Y poz 1 birim kadar yukarı cıkacak.
+    }
 }
