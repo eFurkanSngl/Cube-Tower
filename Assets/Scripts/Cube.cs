@@ -16,6 +16,7 @@ public class Cube : MonoBehaviour
     private bool _isFalling = false;  // Küpün düşüp düşmediğini kontrol edecek.
     private Score _scoreManager;  // Score classından türüyor
     private GameManager _gameManager;
+    private CameraFollow _camera;
     
     private HashSet<int> _collideCubes = new HashSet<int>(); // Çarpşıan küplerin ID lerini saklayacak
     
@@ -24,7 +25,7 @@ public class Cube : MonoBehaviour
 
       _scoreManager = FindObjectOfType<Score>();  // burada bir kez almamız performans açasından önemli
       _gameManager = FindObjectOfType<GameManager>();
-      
+      _camera = FindObjectOfType<CameraFollow>();
       
       _startPos = transform.position;  // oyun başladığında başlangıç noktasını alıyor
       _rb =GetComponent<Rigidbody2D>();
@@ -86,6 +87,7 @@ public class Cube : MonoBehaviour
             {
                _scoreManager.IncreaseScore(); // Score artırıcaz.
                _gameManager.IncrementSpawnPos();
+               _camera.IncrementSpawnCameraPos();
             }
          }
       }
