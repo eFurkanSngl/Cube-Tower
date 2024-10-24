@@ -87,7 +87,7 @@ public class Cube : MonoBehaviour
             {
                _scoreManager.IncreaseScore(); // Score artırıcaz.
                _gameManager.IncrementSpawnPos();
-               _camera.IncrementSpawnCameraPos();
+                _camera.IncrementSpawnCameraPos();
             }
          }
       }
