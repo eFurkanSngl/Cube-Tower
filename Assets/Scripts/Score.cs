@@ -7,18 +7,18 @@ public class Score : MonoBehaviour
 {
 
     [SerializeField] private Text _scoreText;
-    private int score;
+    private int _score;
     
     
     // Start is called before the first frame update
     void Start()
     {
-        score = 0;
+       _score = 0;
     }
 
-    public void IncreaseScore()
+    public void IncreaseScore(int score)
     {
-        score++;
+        _score+=score;
         UpdateScoreText();
     }
 
@@ -26,13 +26,13 @@ public class Score : MonoBehaviour
     {
         if (_scoreText != null)
         {
-            _scoreText.text = score.ToString();
+            _scoreText.text = _score.ToString();
         }
     }
 
-    public void DecreaseScore()
+    public void DecreaseScore(int score)
     {
-        score--;
+        _score -= score;
         UpdateScoreText();
     }
 }

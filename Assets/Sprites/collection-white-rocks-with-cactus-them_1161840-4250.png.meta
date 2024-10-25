@@ -1,0 +1,875 @@
+fileFormatVersion: 2
+guid: 873aa8565d8237748bbdfb87b41d0dc1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 524
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7a76f5385dc264fbac9a55cb9b859e
+      internalID: -1876776290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 524
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cf324078ca5c1419f5c20b3903c029
+      internalID: 1475534795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 523
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931806cd6be8bda4f8746fe270d54a3e
+      internalID: 681871199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 523
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8fc9b4204720845900cea8ad6f7fee
+      internalID: -1363777473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 523
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b297092ff31df75428688cac372493cb
+      internalID: -782080295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 425
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e7a369b5f45c5418834e7433073991
+      internalID: -948227231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 314
+        width: 95
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b456af4ee2df9d44fa56e815c4d53682
+      internalID: 1177024150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 427
+        width: 94
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0977a31cdabf24d98c020fdf4f7fdd
+      internalID: -1832498157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_8
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 424
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41586adaea495ad4a994f90caf5d43c5
+      internalID: 62702882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 424
+        width: 78
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a0f0cea8125094e8bc6aa8c2b1944f
+      internalID: 1021297174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 427
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4674dfd1ed5bd47a12225986213d77
+      internalID: -372997952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_11
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 325
+        width: 101
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec20fe393f0274c94c5a2f3583d712
+      internalID: 1213288242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 322
+        width: 90
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b31b1237a717e546bc9466848a91573
+      internalID: -547699848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 321
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db74dd2dd47088d4a81784c711711bb2
+      internalID: -1748226969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 323
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f910fb3f1f80ca34085663a5e479036c
+      internalID: 623326076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_15
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 322
+        width: 101
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a28597ca7b9f6248a36d9109f375aa3
+      internalID: -839899150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 211
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e5af2e33a38e241819390aa5861241
+      internalID: -1320098180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_17
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 213
+        width: 100
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2bf585d2e2f9d4889e1c24662266b7
+      internalID: -2079841466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_18
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 212
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef0d34193de7fc4396d8a4694d8cbeb
+      internalID: -576536873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_19
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 212
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10f8ce3d886c624eb39a6eda033fa4e
+      internalID: -79296509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_20
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 213
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1f0003ee18e264f995470092ad87be
+      internalID: 2070041486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_21
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 215
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be9dac53dc1163498f1037cf053c179
+      internalID: -1892085895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 124
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611617b21e20eba4e9484e79b032f164
+      internalID: -1300202366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 123
+        width: 106
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2320612c846e43b499a4be6994b57075
+      internalID: 304670126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_24
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 120
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ca5ddbc37818046b545d433b32779a
+      internalID: -686945183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_25
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 120
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7011164d91fba4e965d0559c901b84
+      internalID: -874032599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 120
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7c25a3f06d42a449b6ca07c4bc501d
+      internalID: -902634536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_27
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 124
+        width: 103
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78e089c6795876468b935f859f72973
+      internalID: -2130226465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 24
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad8ec30a7954584fa0fb56b8064b967
+      internalID: -1230341149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_29
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 21
+        width: 95
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a96769a6a347874dadc512740434116
+      internalID: 1861936197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_30
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 20
+        width: 87
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46363477580804789706e0764e47dc
+      internalID: 856778372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_31
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 20
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e2f8fe912129a4b81cf1fdaa473e4b
+      internalID: 333514670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_32
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 19
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6709e5aa793834fb720f79500313c4
+      internalID: -966381958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collection-white-rocks-with-cactus-them_1161840-4250_33
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 19
+        width: 93
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241621e425eaa9a4ba4100c5ee38f5e8
+      internalID: -105748343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      collection-white-rocks-with-cactus-them_1161840-4250_0: -1876776290
+      collection-white-rocks-with-cactus-them_1161840-4250_1: 1475534795
+      collection-white-rocks-with-cactus-them_1161840-4250_10: -372997952
+      collection-white-rocks-with-cactus-them_1161840-4250_11: 1213288242
+      collection-white-rocks-with-cactus-them_1161840-4250_12: -547699848
+      collection-white-rocks-with-cactus-them_1161840-4250_13: -1748226969
+      collection-white-rocks-with-cactus-them_1161840-4250_14: 623326076
+      collection-white-rocks-with-cactus-them_1161840-4250_15: -839899150
+      collection-white-rocks-with-cactus-them_1161840-4250_16: -1320098180
+      collection-white-rocks-with-cactus-them_1161840-4250_17: -2079841466
+      collection-white-rocks-with-cactus-them_1161840-4250_18: -576536873
+      collection-white-rocks-with-cactus-them_1161840-4250_19: -79296509
+      collection-white-rocks-with-cactus-them_1161840-4250_2: 681871199
+      collection-white-rocks-with-cactus-them_1161840-4250_20: 2070041486
+      collection-white-rocks-with-cactus-them_1161840-4250_21: -1892085895
+      collection-white-rocks-with-cactus-them_1161840-4250_22: -1300202366
+      collection-white-rocks-with-cactus-them_1161840-4250_23: 304670126
+      collection-white-rocks-with-cactus-them_1161840-4250_24: -686945183
+      collection-white-rocks-with-cactus-them_1161840-4250_25: -874032599
+      collection-white-rocks-with-cactus-them_1161840-4250_26: -902634536
+      collection-white-rocks-with-cactus-them_1161840-4250_27: -2130226465
+      collection-white-rocks-with-cactus-them_1161840-4250_28: -1230341149
+      collection-white-rocks-with-cactus-them_1161840-4250_29: 1861936197
+      collection-white-rocks-with-cactus-them_1161840-4250_3: -1363777473
+      collection-white-rocks-with-cactus-them_1161840-4250_30: 856778372
+      collection-white-rocks-with-cactus-them_1161840-4250_31: 333514670
+      collection-white-rocks-with-cactus-them_1161840-4250_32: -966381958
+      collection-white-rocks-with-cactus-them_1161840-4250_33: -105748343
+      collection-white-rocks-with-cactus-them_1161840-4250_4: -782080295
+      collection-white-rocks-with-cactus-them_1161840-4250_5: -948227231
+      collection-white-rocks-with-cactus-them_1161840-4250_6: 1177024150
+      collection-white-rocks-with-cactus-them_1161840-4250_7: -1832498157
+      collection-white-rocks-with-cactus-them_1161840-4250_8: 62702882
+      collection-white-rocks-with-cactus-them_1161840-4250_9: 1021297174
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

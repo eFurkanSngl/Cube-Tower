@@ -85,7 +85,7 @@ public class Cube : MonoBehaviour
 
             if (transform.position.y > other.transform.position.y)  // eğer bunun trasnformu diğerinden büyükse 
             {
-               _scoreManager.IncreaseScore(); // Score artırıcaz.
+               _scoreManager.IncreaseScore(5); // Score artırıcaz.
                _gameManager.IncrementSpawnPos();
                 _camera.IncrementSpawnCameraPos();
             }
@@ -95,7 +95,7 @@ public class Cube : MonoBehaviour
       else if (other.gameObject.CompareTag("DestroyGround"))
       {
          Destroy(gameObject);
-         _scoreManager.DecreaseScore();
+         _scoreManager.DecreaseScore(5);
       }
    }
 }

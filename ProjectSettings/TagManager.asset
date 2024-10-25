@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Cube
   - DestroyGround
+  - SpecialCube
   layers:
   - Default
   - TransparentFX

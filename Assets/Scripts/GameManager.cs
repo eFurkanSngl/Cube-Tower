@@ -5,6 +5,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject _cubes;
@@ -12,11 +13,14 @@ public class GameManager : MonoBehaviour
     private int _cubesCount;
     private Vector2 _spawnPs = new Vector2(0, 3.50f);
     [SerializeField] private float _posIncrement = 3f;  // Poz artış miktarı
-    
+    private Cube _cube;
+   
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SpawnCube());
+        _cube = FindObjectOfType<Cube>();
     }
     
     private IEnumerator SpawnCube()
@@ -25,11 +29,12 @@ public class GameManager : MonoBehaviour
         {
             GameObject cubeToSpawn;   // spawnlanacak cube
     
-            if (_cubesCount == 8)  // eğer küp 7 ise
+            if (_cubesCount == 8)  // eğer küp 8 ise
             {
                 cubeToSpawn = _specialCubes;  // özel cube spawn et
                 _cubesCount = 0;  // sayac sıfırla 
-                Debug.Log("Special");   // ekrana calışıp calışmadığını dene
+                
+                
             }
             else
             {
@@ -46,9 +51,16 @@ public class GameManager : MonoBehaviour
     
         }
     }
+    private void Pause()
+    {
+        Time.timeScale = 0f;
+        _cube.enabled = false;
+        
+    }
 
     public void IncrementSpawnPos()
     {
         _spawnPs.y += _posIncrement;  // Y poz 1 birim kadar yukarı cıkacak.
     }
+  
 }
