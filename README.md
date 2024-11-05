@@ -1,0 +1,1 @@
+Cube Tower is a prototype of the game. Our goal in this game is to build a tower by piling up cubes from a certain height on top of each other. If the cubes do not overlap, we will lose our score and our health.
